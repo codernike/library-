@@ -59,7 +59,7 @@ let libraryForm = document.getElementById('libraryForm');
 libraryForm.addEventListener('submit', libraryFormSubmit);
 
 function libraryFormSubmit(e) {
-    console.log('YOu have submitted library form');
+    //console.log('YOu have submitted library form');
     let name = document.getElementById('bookName').value;
     let author = document.getElementById('author').value;
     let type;
@@ -78,7 +78,7 @@ function libraryFormSubmit(e) {
     }
 
     let book = new Book(name, author, type);
-    console.log(book);
+    //console.log(book);
 
     let display = new Display();
 
