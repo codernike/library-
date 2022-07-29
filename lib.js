@@ -8,7 +8,7 @@ class Book {
 
 class Display {
     add(book) {
-        console.log("Adding to UI");
+       // console.log("Adding to UI");
         let tableBody = document.getElementById('tableBody');
         let uiString = `<tr>
                             <td>${book.name}</td>
